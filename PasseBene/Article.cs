@@ -31,6 +31,5 @@ namespace PasseBene
                 return _name;
             }
         }
-
     }
 }
