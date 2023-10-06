@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace PasseBene
 {
-    public class MethodToPay
+    public class ShoppingBag
     {
-        public void ProcessToPay()
-        {
-            throw new NotImplementedException();
-        }
+       private List<Article> _articles;
+
     }
 }

@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace PasseBene
 {
-    public class Article
+    public class Cart
     {
-        private float _unityPrice;
+        private List<Article> _articles;
 
-        public float UnityPrice
+
+        public void Release()
         {
-            get
-            {
-                return _unityPrice;
-            }
+            throw new NotImplementedException();
         }
-
     }
 }

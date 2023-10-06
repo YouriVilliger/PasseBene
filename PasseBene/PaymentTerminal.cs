@@ -1,37 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace PasseBene
 {
-    public class Panier
+    public class PaymentTerminal
     {
-        private float _somme = 0;
-        private List<Article> _panier = new List<Article>();
-
-        public void AddArticle(Article article)
+        public void DisplayInstruction()
         {
             throw new NotImplementedException();
         }
 
-        public void RemoveArticle(Article article)
+        public void Cash(float balance)
         {
             throw new NotImplementedException();
         }
 
-        private void CalculPanier()
+        public void InsertCard(CreditCard card)
         {
             throw new NotImplementedException();
         }
 
-        public float Somme
+        public void RemoceCard()
         {
-            get
-            {
-                return _somme;
-            }
+            throw new NotImplementedException();
         }
     }
 }
