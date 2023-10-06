@@ -25,7 +25,7 @@ namespace PasseBene
             throw new NotImplementedException();
         }
 
-        public void RemoceCard()
+        public void RemoveCard()
         {
             throw new NotImplementedException();
         }
