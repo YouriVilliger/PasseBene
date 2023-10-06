@@ -25,5 +25,13 @@ namespace PasseBene
         {
             throw new NotImplementedException();
         }
+
+        public float Somme
+        {
+            get
+            {
+                return _somme;
+            }
+        }
     }
 }

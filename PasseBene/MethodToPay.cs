@@ -6,17 +6,11 @@ using System.Threading.Tasks;
 
 namespace PasseBene
 {
-    public class MethodToBuy
+    public class MethodToPay
     {
-        public void BuyByCarte()
+        public void ProcessToPay()
         {
             throw new NotImplementedException();
         }
-
-        public void BuyByCashRegister()
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }
